@@ -286,15 +286,15 @@ BA_ "VFrameFormat" BO_ 528 0;
 BA_ "GenMsgCycleTime" BO_ 528 20;
 
 BA_ "BusType" "CAN";
-BA_ "NmhBaseAddress" 1280;
-BA_ "NmhMessageCount" 256;
-BA_ "SyncJumpWidthMin" 2;
-BA_ "SyncJumpWidthMax" 4;
-BA_ "NmhTimeoutTimer" 2000;
-BA_ "NmhWaitBusSleepTimer" 2000;
-BA_ "NmhPrepareBusSleepTimer" 100;
-BA_ "NmhLongTimer" 200;
-BA_ "DBName" "DBCNetWork";
+    BA_ "NmhBaseAddress" 1280;
+    BA_ "NmhMessageCount" 256;
+    BA_ "SyncJumpWidthMin" 2;
+    BA_ "SyncJumpWidthMax" 4;
+    BA_ "NmhTimeoutTimer" 2000;
+    BA_ "NmhWaitBusSleepTimer" 2000;
+    BA_ "NmhPrepareBusSleepTimer" 100;
+    BA_ "NmhLongTimer" 200;
+    BA_ "DBName" "DBCNetWork";
 
 VAL_ 528 Led1_State 0 "LED_ON" 1 "LED_OFF";
 VAL_ 528 Led2_State 0 "LED_ON" 1 "LED_OFF";
